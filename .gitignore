@@ -1,1 +1,3 @@
-BaseProject.xcodeproj/
+#BaseProject.xcodeproj/
+*.xcuserstate
+BaseProject.xcodeproj/project.xcworkspace/xcshareddata/
