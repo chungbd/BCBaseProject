@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E22E6E601B1E3A4400348165 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E6E5B1B1E3A4400348165 /* LibraryAPI.m */; };
-		E22E6E611B1E3A4400348165 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E6E5D1B1E3A4400348165 /* NetworkManager.m */; };
-		E22E6E621B1E3A4400348165 /* UserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E6E5F1B1E3A4400348165 /* UserDataManager.m */; };
-		E22E6E661B1E3A7000348165 /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E6E641B1E3A7000348165 /* ModelManager.m */; };
+		AD166EBC1B1F0BBD00745732 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AD166EB71B1F0BBD00745732 /* LibraryAPI.m */; };
+		AD166EBD1B1F0BBD00745732 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD166EB91B1F0BBD00745732 /* NetworkManager.m */; };
+		AD166EBE1B1F0BBD00745732 /* UserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD166EBB1B1F0BBD00745732 /* UserDataManager.m */; };
+		AD166EC11B1F0BDD00745732 /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD166EC01B1F0BDD00745732 /* ModelManager.m */; };
 		E299FD591B1B0ACE006B5985 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E299FD581B1B0ACE006B5985 /* main.m */; };
 		E299FD641B1B0ACE006B5985 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E299FD631B1B0ACE006B5985 /* Images.xcassets */; };
 		E299FD731B1B0ACE006B5985 /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E299FD721B1B0ACE006B5985 /* BaseProjectTests.m */; };
@@ -32,14 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E22E6E5A1B1E3A4400348165 /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
-		E22E6E5B1B1E3A4400348165 /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
-		E22E6E5C1B1E3A4400348165 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
-		E22E6E5D1B1E3A4400348165 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
-		E22E6E5E1B1E3A4400348165 /* UserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataManager.h; sourceTree = "<group>"; };
-		E22E6E5F1B1E3A4400348165 /* UserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataManager.m; sourceTree = "<group>"; };
-		E22E6E631B1E3A7000348165 /* ModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelManager.h; path = "../../../FirmMarket/7.Source code/iOS/FirmMarket/BaseProject/Model/ModelManager.h"; sourceTree = "<group>"; };
-		E22E6E641B1E3A7000348165 /* ModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelManager.m; path = "../../../FirmMarket/7.Source code/iOS/FirmMarket/BaseProject/Model/ModelManager.m"; sourceTree = "<group>"; };
+		AD166EB61B1F0BBD00745732 /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LibraryAPI.h; path = BaseProject/Services/LibraryAPI.h; sourceTree = SOURCE_ROOT; };
+		AD166EB71B1F0BBD00745732 /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LibraryAPI.m; path = BaseProject/Services/LibraryAPI.m; sourceTree = SOURCE_ROOT; };
+		AD166EB81B1F0BBD00745732 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = BaseProject/Services/NetworkManager.h; sourceTree = SOURCE_ROOT; };
+		AD166EB91B1F0BBD00745732 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = BaseProject/Services/NetworkManager.m; sourceTree = SOURCE_ROOT; };
+		AD166EBA1B1F0BBD00745732 /* UserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDataManager.h; path = BaseProject/Services/UserDataManager.h; sourceTree = SOURCE_ROOT; };
+		AD166EBB1B1F0BBD00745732 /* UserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDataManager.m; path = BaseProject/Services/UserDataManager.m; sourceTree = SOURCE_ROOT; };
+		AD166EBF1B1F0BDD00745732 /* ModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelManager.h; sourceTree = "<group>"; };
+		AD166EC01B1F0BDD00745732 /* ModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelManager.m; sourceTree = "<group>"; };
 		E299FD531B1B0ACE006B5985 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299FD571B1B0ACE006B5985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E299FD581B1B0ACE006B5985 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,12 +84,12 @@
 		E22E6E591B1E3A4400348165 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				E22E6E5A1B1E3A4400348165 /* LibraryAPI.h */,
-				E22E6E5B1B1E3A4400348165 /* LibraryAPI.m */,
-				E22E6E5C1B1E3A4400348165 /* NetworkManager.h */,
-				E22E6E5D1B1E3A4400348165 /* NetworkManager.m */,
-				E22E6E5E1B1E3A4400348165 /* UserDataManager.h */,
-				E22E6E5F1B1E3A4400348165 /* UserDataManager.m */,
+				AD166EB61B1F0BBD00745732 /* LibraryAPI.h */,
+				AD166EB71B1F0BBD00745732 /* LibraryAPI.m */,
+				AD166EB81B1F0BBD00745732 /* NetworkManager.h */,
+				AD166EB91B1F0BBD00745732 /* NetworkManager.m */,
+				AD166EBA1B1F0BBD00745732 /* UserDataManager.h */,
+				AD166EBB1B1F0BBD00745732 /* UserDataManager.m */,
 			);
 			name = Services;
 			path = "../../FirmMarket/7.Source code/iOS/FirmMarket/BaseProject/Services";
@@ -206,8 +206,8 @@
 		E299FD871B1B1D91006B5985 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E22E6E631B1E3A7000348165 /* ModelManager.h */,
-				E22E6E641B1E3A7000348165 /* ModelManager.m */,
+				AD166EBF1B1F0BDD00745732 /* ModelManager.h */,
+				AD166EC01B1F0BDD00745732 /* ModelManager.m */,
 				E299FD981B1B1E81006B5985 /* CommonModel.h */,
 			);
 			path = Model;
@@ -361,14 +361,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD166EBE1B1F0BBD00745732 /* UserDataManager.m in Sources */,
+				AD166EBC1B1F0BBD00745732 /* LibraryAPI.m in Sources */,
+				AD166EBD1B1F0BBD00745732 /* NetworkManager.m in Sources */,
 				E299FD961B1B1D91006B5985 /* ViewController.m in Sources */,
 				E299FD921B1B1D91006B5985 /* AppDelegate.m in Sources */,
+				AD166EC11B1F0BDD00745732 /* ModelManager.m in Sources */,
 				E299FD591B1B0ACE006B5985 /* main.m in Sources */,
-				E22E6E621B1E3A4400348165 /* UserDataManager.m in Sources */,
 				E299FD9E1B1B1FC5006B5985 /* Utils.m in Sources */,
-				E22E6E661B1E3A7000348165 /* ModelManager.m in Sources */,
-				E22E6E611B1E3A4400348165 /* NetworkManager.m in Sources */,
-				E22E6E601B1E3A4400348165 /* LibraryAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
