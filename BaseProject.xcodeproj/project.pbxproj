@@ -60,6 +60,7 @@
 		E299FD9B1B1B1F4F006B5985 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		E299FD9C1B1B1FC5006B5985 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		E299FD9D1B1B1FC5006B5985 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		E2FC692D1B57BAA300D63902 /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messages.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +178,7 @@
 		E299FD821B1B1D91006B5985 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E2FC692D1B57BAA300D63902 /* Messages.h */,
 				E299FD991B1B1EDC006B5985 /* Common.h */,
 				E299FD9A1B1B1F24006B5985 /* Constants.h */,
 				E299FD9B1B1B1F4F006B5985 /* Macro.h */,

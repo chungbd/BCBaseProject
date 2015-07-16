@@ -28,8 +28,18 @@
 
 #define IS_IOS6  (SYSTEM_VERSION < 7)
 
+typedef NS_ENUM(NSInteger, ErrorCodes) {
+    //    ErrorCodesNotAuthorized        = 2,
+    //    ErrorCodesTokenExpire          = -1,
+    ErrorCodesServerResponseUnknow = -1,
+    ErrorCodesRequestFault         = 0,
+    ErrorCodesOk                   = 1,
+    //    ErrorCodesNothingDownload      = 4,
+    //    ErrorCodesUnknow               = 5
+};
+
 typedef void (^AuthenticationCallback)(BOOL success, id result);
 typedef void (^BooleanCallback)(BOOL success);
 typedef void (^BoolAndValueCallback)(BOOL success, id result);
-
+typedef void (^completionHandler)(ErrorCodes code, id result, id message);
 #endif
