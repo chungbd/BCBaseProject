@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#include "Common.h"
 
 @interface NetworkManager : NSObject
+{
+    NSURL *_url;
+    NSMutableURLRequest *_request;
+    NSString *_body;
+    NSOperationQueue *_queue;
+}
 
+- (void) requestToServicesWithURL:(NSString*)url parameter:(NSDictionary *)para completion:(completionHandler)callback;
 @end
