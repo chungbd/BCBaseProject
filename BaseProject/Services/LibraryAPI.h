@@ -12,6 +12,9 @@
 #import "ModelManager.h"
 
 @interface LibraryAPI : NSObject
+@property (nonatomic, retain) NetworkManager *network;
+@property (nonatomic, retain) ModelManager *model;
+@property (nonatomic, retain) UserDataManager *user;
 
 + (LibraryAPI*) shareInstance;
 @end

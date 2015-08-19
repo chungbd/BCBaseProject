@@ -8,18 +8,18 @@
 
 #import "LibraryAPI.h"
 
+static LibraryAPI *_staticLibrary;
+
 @implementation LibraryAPI
 {
-    NetworkManager *_network;
-    ModelManager *_model;
-    UserDataManager *_user;
+    
 }
 -(instancetype)init{
     self = [super init];
     if (self) {
-        _network = [[NetworkManager alloc] init];
-        _model = [[ModelManager alloc] init];
-        _user = [[UserDataManager alloc] init];
+        self.network = [[NetworkManager alloc] init];
+        self.model = [[ModelManager alloc] init];
+        self.user = [[UserDataManager alloc] init];
     }
     return self;
 }

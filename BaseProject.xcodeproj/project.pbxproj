@@ -18,7 +18,7 @@
 		E299FD931B1B1D91006B5985 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E299FD801B1B1D91006B5985 /* LaunchScreen.xib */; };
 		E299FD951B1B1D91006B5985 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299FD861B1B1D91006B5985 /* Main_iPhone.storyboard */; };
 		E299FD961B1B1D91006B5985 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E299FD901B1B1D91006B5985 /* ViewController.m */; };
-		E299FD9E1B1B1FC5006B5985 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E299FD9D1B1B1FC5006B5985 /* Utils.m */; };
+		E299FD9E1B1B1FC5006B5985 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = E299FD9D1B1B1FC5006B5985 /* Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 		E299FD991B1B1EDC006B5985 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		E299FD9A1B1B1F24006B5985 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		E299FD9B1B1B1F4F006B5985 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		E299FD9C1B1B1FC5006B5985 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		E299FD9D1B1B1FC5006B5985 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		E299FD9C1B1B1FC5006B5985 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		E299FD9D1B1B1FC5006B5985 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 		E2FC692D1B57BAA300D63902 /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messages.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,8 +182,8 @@
 				E299FD991B1B1EDC006B5985 /* Common.h */,
 				E299FD9A1B1B1F24006B5985 /* Constants.h */,
 				E299FD9B1B1B1F4F006B5985 /* Macro.h */,
-				E299FD9C1B1B1FC5006B5985 /* Utils.h */,
-				E299FD9D1B1B1FC5006B5985 /* Utils.m */,
+				E299FD9C1B1B1FC5006B5985 /* Helper.h */,
+				E299FD9D1B1B1FC5006B5985 /* Helper.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 				E299FD921B1B1D91006B5985 /* AppDelegate.m in Sources */,
 				AD166EC11B1F0BDD00745732 /* ModelManager.m in Sources */,
 				E299FD591B1B0ACE006B5985 /* main.m in Sources */,
-				E299FD9E1B1B1FC5006B5985 /* Utils.m in Sources */,
+				E299FD9E1B1B1FC5006B5985 /* Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
