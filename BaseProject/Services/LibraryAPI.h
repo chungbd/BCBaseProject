@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NetworkManager.h"
-#import "UserDataManager.h"
-#import "ModelManager.h"
+
+@class NetworkManager;
+@class ModelManager;
+@class UserDataManager;
 
 @interface LibraryAPI : NSObject
 @property (nonatomic, retain) NetworkManager *network;

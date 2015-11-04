@@ -7,6 +7,9 @@
 //
 
 #import "LibraryAPI.h"
+#import "NetworkManager.h"
+#import "ModelManager.h"
+#import "UserDataManager.h"
 
 static LibraryAPI *_staticLibrary;
 
