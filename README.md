@@ -1,29 +1,26 @@
-# README #
+### Content
+> /ViewController:      #View Controllers and its view
+> /Services:            #All thing related with API
+> /AppDelegate:         #Handing special UIApplication Status
+> /Common:              #Defining constants, macro, UI... which use at anywhere
+> /Model:               #Modeling Data
+> /Resource:            #Store resource: music, image...
+> /Vendor:              #Third party library
+...
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Where I read from
 
-### What is this repository for? ###
+http://www.sebastianrehnby.com/blog/2013/01/15/structuring-an-ios-project/
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### What's next ?
+> Have to solve some problem and add some other case:
+>> Enumerator
+>> Multiple language
+>> Common UI
+>> Manager: for authentication, session... where do we put them?
+>> Convert to Swift project
 
-### How do I get set up? ###
+### Reach me
+- Email: chungbd90@gmail.com
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
